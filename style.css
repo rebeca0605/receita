@@ -1,18 +1,11 @@
-*{
-    padding: 0;
+**{
+    padding:0;
     margin: 0;
     box-sizing: border-box;
 }
 
 header{
-    height: 100px;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-}
-
-header h1{
-    background-color: sienna;
 }
 
 img{
@@ -21,14 +14,15 @@ img{
     border-radius: 20px;
 }
 
-footer{
+main {
+    text-align: center;
+} 
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: sienna;
-}
-
-footer h1{
     font-style: italic;
+    background-color: rgb(215, 153, 94);
 }
